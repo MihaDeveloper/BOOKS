@@ -34,9 +34,9 @@ book5[7].after(book5[5]);
 
 
 const book3=book[4].querySelectorAll('h2');
-/* console.log(book3); */
-/* book3[0].innerHTML="<font color=darkkhaki>Книга 3. this и Прототипы Объектов</font>"; */
-book3[0].textContent="Книга 3. this и Прототипы Объектов";
+ console.log(book3); 
+ book3[0].innerHTML="<a href=https:/github.com/azat-io/you-dont-know-js-ru/blob/master/types%20%26%20grammar/README.md#you-dont-know-js-types--grammar><font color=darkkhaki>Книга 3. this и Прототипы Объектов</font></a>"; 
+/* book3[0].textContent="Книга 3. this и Прототипы Объектов"; */
 
 
 
